@@ -1,4 +1,4 @@
-def calculate_items_subtotal(items):
+def calculate_items_subtotal(items: float) -> float:
     subtotal = 0
     for item in items:
         price = item["price"]
